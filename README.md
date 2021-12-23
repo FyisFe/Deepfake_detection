@@ -259,7 +259,7 @@ The details of results are shown below:
 
 <center>
 
-<img src="./figures/rdm_res.png" width="45%">
+<img src="./figures/Rdm_res.png" width="45%">
 
 </center>
 
@@ -314,7 +314,7 @@ And in this section, we will continue to investigate several hyperparameter and 
 Deciding the learning rate is crucial for the training process.
 
 <div align='center'>
-<img src='./figures/v3_structure.png' width='50%' />
+<img src='./figures/v3_structure.PNG' width='50%' />
 
 _Figure 3.1.1.a Inception_v3 Architecture_
 
