@@ -55,10 +55,10 @@ In this section, we illustrate how we do data preprocessing and select the prima
 The overview of the parameters we considered is
 
 |  Parameter Name  |         Options          |
-| :--------------: | :----------------------: | ------------------- | --------------- |
-|   Split Ratio    |         ``` 7:3          | 8:2 ```             |
-| Selection Method | ``` Individual Selection | Group Selection ``` |
-|      Model       |       ```ResNet18        | VGG16               | InceptionV3 ``` |
+| :--------------: | :----------------------: |
+|   Split Ratio    |         ``` 7:3          \| 8:2 ```             |
+| Selection Method | ``` Individual Selection \| Group Selection ``` |
+|      Model       |       ```ResNet18        \| VGG16               \| InceptionV3 ``` |
 
 #### 2.1.1 Split Ratio
 
@@ -457,25 +457,3 @@ The following images are labeled `False Negative`. The most obvious character is
 - Simonyan, K., & Zisserman, A. (2014). Very deep convolutional networks for large-scale image recognition. arXiv preprint arXiv:1409.1556.
 
 - Szegedy, C., Liu, W., Jia, Y., Sermanet, P., Reed, S., Anguelov, D., ... & Rabinovich, A. (2015). Going deeper with convolutions. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 1-9).
-<style>
-  .div_center {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .fx {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .fx_100 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-  .hlt tr:nth-child(10) {
-    background-color: #E5E7EB;
-  }
-</style>
